@@ -1,0 +1,67 @@
+html,body{
+    height:100%;
+    margin:0;
+    background-color:#fff;
+}
+
+.wrapper{
+    max-width:300px;
+    background-color:#fff;
+    padding: 75px 25px 75px 25px;
+    border: 2px solid rgb(233, 226, 226);
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    
+}
+
+form{display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:100%;
+    background-image: radial-gradient(
+        circle farthest-corner at 10% 20%,
+        rgba(253, 101, 133, 1) 0%,
+        rgba(255, 211, 165, 1) 90%
+      );
+}
+
+input[type="text"], 
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+.user-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.user-button{
+    padding:9px 25px;
+    padding-left:8px;
+    text-align: center;
+}
+
+button{
+    padding: 15px 60px;
+    background-color:green;
+    border-radius:9px;
+    border:2px solid  rgb(233, 226, 226);
+
+}
+  
+.user-button {
+    display: flex;
+    justify-content: center;
+}
+
+
